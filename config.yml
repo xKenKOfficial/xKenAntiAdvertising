@@ -1,0 +1,22 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenAntiAdvertising"
+
+# Tutaj mozna ustawic liste IP, ktore maja byc zablokowane:
+words_to_be_censured:
+  - '.maxc.pl'
+  - '.tasrv.com'
+  - '.pl'
+  - '.com.pl'
+  - '.eu'
+  - '.info'
+  - '.net'
+  - '.org'
+
+# Tutaj mozna ustawic powod (bana, kicka, mute'a itd.):
+reason: "&c&lReklama Serwera!"
+
+# Tutaj mozna ustawic komende, ktora ma sie wykonac, jesli gracz na chat wyslal reklame innego serwera itd.:
+console_command: "kick {PLAYER} {REASON}"
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true
